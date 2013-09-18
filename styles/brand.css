@@ -1,0 +1,101 @@
+/*begin global styles*/
+/* line 5, ../sass/brand.scss */
+code {
+  background: #333;
+  display: block;
+  font-size: 0.8em;
+  margin: 0px 0px 20px 0px;
+  padding: 2%;
+  width: 100%;
+}
+
+/* line 13, ../sass/brand.scss */
+.toggle-code {
+  /*background: #555;*/
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  margin-top: -12px;
+  width: 80px;
+}
+
+/* line 21, ../sass/brand.scss */
+html .grid {
+  background: #f5f5f5;
+  border: 1px solid #DDD;
+  color: #555;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+/*end global styles*/
+/*begin brand blocks*/
+/* line 33, ../sass/brand.scss */
+.brand-color {
+  padding: 10% 4%;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+/* line 38, ../sass/brand.scss */
+#primary-color-a {
+  background-color: #cc0000;
+  color: #FFF;
+}
+
+/* line 42, ../sass/brand.scss */
+#primary-color-b {
+  background-color: black;
+  color: #FFF;
+}
+
+/* line 46, ../sass/brand.scss */
+#primary-color-c {
+  background-color: white;
+  color: #555;
+}
+
+/* line 50, ../sass/brand.scss */
+#secondary-color-a {
+  background-color: #383838;
+  color: #FFF;
+}
+
+/* line 54, ../sass/brand.scss */
+#secondary-color-b {
+  background-color: #666666;
+  color: #FFF;
+}
+
+/* line 58, ../sass/brand.scss */
+#secondary-color-c {
+  background-color: #e1e1e1;
+  color: #555;
+}
+
+/* line 62, ../sass/brand.scss */
+#secondary-color-d {
+  background-color: #5c5541;
+  color: #fff;
+}
+
+/* line 66, ../sass/brand.scss */
+#secondary-color-e {
+  background-color: #666633;
+  color: #fff;
+}
+
+/* line 70, ../sass/brand.scss */
+#secondary-color-f {
+  background-color: #556677;
+  color: #fff;
+}
+
+/* line 74, ../sass/brand.scss */
+#secondary-color-g {
+  background-color: #a20000;
+  color: #fff;
+}
+
+/*end brand blocks*/

@@ -1,0 +1,237 @@
+/*mandatory*/
+@import "settings";
+@import "normalize";
+/*@import 'foundation';*/
+@import "foundation/components/global";
+@import "foundation/components/grid";
+
+/*mega menu*/
+@import "vendor/dcmegamenu.css";
+
+/*Font Awesome*/
+@import "font-awesome/font-awesome.scss";
+
+/*optional depending on styles*/
+/*@import "foundation/components/visibility";*/
+@import "foundation/components/block-grid";
+@import "foundation/components/type";
+@import "foundation/components/buttons";
+@import "foundation/components/forms"; // *requires /components/buttons
+@import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+@import "foundation/components/button-groups"; // *requires components/buttons
+/*@import "foundation/components/dropdown-buttons"; // *requires components/buttons*/
+@import "foundation/components/split-buttons"; // *requires components/buttons
+/*@import "foundation/components/flex-video";*/
+@import "foundation/components/section";
+@import "foundation/components/top-bar";
+@import "foundation/components/orbit";
+@import "foundation/components/reveal";
+/*@import "foundation/components/joyride";*/
+/*@import "foundation/components/clearing";*/
+@import "foundation/components/alert-boxes";
+@import "foundation/components/breadcrumbs";
+/*@import "foundation/components/keystrokes";*/
+@import "foundation/components/labels";
+@import "foundation/components/inline-lists";
+@import "foundation/components/pagination";
+@import "foundation/components/panels";
+/*@import "foundation/components/pricing-tables";*/
+@import "foundation/components/progress-bars";
+@import "foundation/components/side-nav";
+@import "foundation/components/sub-nav";
+/*@import "foundation/components/switch";*/
+/*@import "foundation/components/magellan";*/
+@import "foundation/components/tables";
+/*@import "foundation/components/thumbs";*/
+@import "foundation/components/tooltips";
+/*@import "foundation/components/dropdown";*/
+
+/*begin nav styles*/
+body.nav-expanded{
+	left: -83%;
+	padding-top: 0px;
+
+	.top-bar.expanded{
+		overflow: visible;
+	}
+	.top-bar-section{
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		z-index: 9999;
+	}
+	#my-menu{
+		background: darken($topbar-bg, 4%);
+		position: absolute;
+	}
+}
+body.is-sticky{
+	padding-top: $topbar-height + 30;
+}
+body.nav-open{
+	padding-top: 0px;
+}
+/*end nav styles*/
+
+
+/*begin header*/
+header{
+
+	background: $primary-color;
+	margin-bottom: emCalc(30);
+
+	nav.top-bar{
+		@include grid-row;
+
+		.title-area .name{
+			padding-left: emCalc(15);
+			padding-top: emCalc(14);
+			width: 248px;
+
+			@media #{$small} {
+				padding-top: 12px;
+				width: 261px;
+			}
+			@media #{$medium} {
+				padding-top: 6px;
+				width: 348px;
+			}
+
+			.name a{
+				display: block;
+				height: 100%;
+			}
+		}
+		.top-bar-section{
+			@media #{$small} {
+				padding-right: emCalc(0);
+			}
+			@media #{$medium} {
+				padding-right: emCalc(15);
+			}
+			ul#my-menu{
+				li{
+					border-top: $topbar-divider-border-bottom;
+					border-bottom: $topbar-divider-border-top;
+					@media #{$small} {
+						border: none;
+						max-width: 250px;
+					}
+				}
+				li > a{
+					@media #{$small} {
+						padding: 0px emCalc(15);
+					}
+					text-transform: uppercase;
+				}
+				li > a:after{
+					border: 0px;
+					padding: 0px;
+				}
+				li > a:hover{
+					@media #{$small} {
+						background: darken($topbar-bg, 10%);
+					}
+				}
+				li ul{
+					@media #{$small} {
+						display: none;
+						position: fixed;
+						z-index: 999;
+					}
+
+					li{
+						background: darken($topbar-bg, 10%);
+						border-top: 1px solid $primary-color;
+						border-bottom: 1px solid darken($primary-color, 15%);
+						display: block;
+						float: none;
+						padding: 0px emCalc(15);
+						@media #{$small} {
+							padding: emCalc(5);
+						}
+					}
+					li:last-child{
+						border-bottom: none;
+					}
+					li:hover{
+						@media #{$small} {
+							background: darken($topbar-bg, 15%);
+						}
+					}
+					li a{
+						background: none;
+						font-size: 0.7em;
+						line-height: 1.6em;
+						padding-bottom: emCalc(10);
+						padding-top: emCalc(10);
+						text-transform: capitalize;
+					}
+					li a:hover{
+						@media #{$small} {
+							background: darken($topbar-bg, 15%);
+						}
+					}
+				}
+				li:hover ul{
+					display: block;
+				}
+			}
+		}
+	}
+}
+header.sticky{
+	position: fixed;
+	top: 0px;
+	z-index: 99;
+}
+/*end header*/
+
+/*begin content*/
+#content{
+	@include grid-row;
+	margin-bottom: $block-grid-default-spacing;
+}
+#secnav{
+	@media #{$small} {
+		@include grid-column(2);
+	}
+	padding: 0px emCalc(15);
+}
+#primary{
+	@media #{$small} {
+		@include grid-column(10);
+		margin: 0px 0px 30px 0px;
+	}
+
+	padding: 0px emCalc(15);
+}
+#secondary{
+	@media #{$small} {
+		@include grid-column(10, false, false, 4);
+		padding: 0px $block-grid-default-spacing;
+	}
+	@media #{$medium} {
+		@include grid-column(3, false, false, 0);
+	}
+}
+
+/*end content*/
+
+
+/*begin footer*/
+footer {
+	background: $footer-bg-color;
+	padding-top: $footer-padding-top;
+
+	p, h2,h3,h4,h5, i{
+		color: $footer-font-color;
+	}
+}
+/*end footer*/
+
+/*some global settings*/
+.reveal-modal-bg{
+	display: none;
+}
+/*end global settings*/
