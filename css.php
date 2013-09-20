@@ -46,25 +46,89 @@
 				<hr />
 				<!-- Size Classes -->
 				<a href="#" class="button">Default Button</a>
-				<code data-toggle><a href="#" class="button">Default Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="button">Default Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 				<a href="#" class="tiny button">Tiny Button</a>
-				<code data-toggle><a href="#" class="tiny button">Tiny Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="tiny button">Tiny Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 				<a href="#" class="small button">Small Button</a>
-				<code data-toggle><a href="#" class="small button">Small Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="small button">Small Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 				<a href="#" class="large button">Large Button</a>
-				<code data-toggle><a href="#" class="large button">Large Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="large button">Large Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 
 				<!-- Color Classes -->
 				<a href="#" class="button secondary">Secondary Button</a>
-				<code data-toggle><a href="#" class="button secondary">Secondary Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="button secondary">Secondary Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 				<a href="#" class="button success">Success Button</a>
-				<code data-toggle><a href="#" class="button success">Success Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="button success">Success Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 				<a href="#" class="button alert">Alert Button</a>
-				<code data-toggle><a href="#" class="button alert">Alert Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="button alert">Alert Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 
 				<!-- Disabled Class -->
 				<a href="#" class="button disabled">Disabled Button</a>
-				<code data-toggle><a href="#" class="button disabled">Disabled Button</a></code>
+				<code data-toggle>
+<pre>
+//HTML
+<a href="#" class="button disabled">Disabled Button</a>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
+				</code>
 
 				<h4>Button Groups</h4>
 				<hr />
@@ -75,11 +139,17 @@
 					<li><a href="#" class="small button">Button 3</a></li>
 				</ul>
 				<code data-toggle>
-<pre><ul class="button-group">
+<pre>
+//HTML
+<ul class="button-group">
 	<li><a href="#" class="small button">Button 1</a></li>
 	<li><a href="#" class="small button">Button 2</a></li>
 	<li><a href="#" class="small button">Button 3</a></li>
-</ul></pre>
+</ul>
+
+//CSS
+@import "foundation/components/buttons"
+</pre>
 				</code>
 
 				<h2 id="alerts">Alert Boxes</h2>
@@ -90,10 +160,14 @@
     			</div>
     			<code data-toggle>
 <pre>
+//HTML
 <div class="alert-box" data-alert="">
   This is a standard alert.
   <a class="close" href="">×</a>
 </div>
+
+//JS
+scripts/foundation/foundation.alerts.js
 </pre>
     			</code>
     			<div class="alert-box success" data-alert="">
@@ -102,10 +176,14 @@
     			</div>
     			<code data-toggle>
 <pre>
+//HTML
 <div class="alert-box success" data-alert="">
 	This is a success alert.
 	<a class="close" href="">×</a>
 </div>
+
+//JS
+scripts/foundation/foundation.alerts.js
 </pre>
     			</code>
     			<div class="alert-box secondary" data-alert="">
@@ -114,10 +192,14 @@
     			</div>
     			<code data-toggle>
 <pre>
+//HTML
 <div class="alert-box secondary" data-alert="">
 	This is a secondary alert.
 	<a class="close" href="">×</a>
 </div>
+
+//JS
+scripts/foundation/foundation.alerts.js
 </pre>
     			</code>
 
@@ -126,11 +208,41 @@
 				<p>A simple way to add progress bars to your layouts. You only need two HTML elements to make them and they're easy to customize.</p>
 
 				<div class="progress large-12"><span style="width: 40%" class="meter"></span></div>
-				<code data-toggle><div class="progress large-12"><span style="width: 40%" class="meter"></span></div></code>
+				<code data-toggle>
+<pre>
+//HTML
+<div class="progress large-12">
+	<span style="width: 40%" class="meter"></span>
+</div>
+
+//CSS
+@import "foundation/components/progress-bars"
+</pre>
+</code>
 				<div class="progress success large-16"><span style="width: 80%" class="meter"></span></div>
-				<code data-toggle><div class="progress success large-16"><span style="width: 80%" class="meter"></span></div></code>
+				<code data-toggle>
+<pre>
+//HTML
+<div class="progress success large-16">
+	<span style="width: 80%" class="meter"></span>
+</div>
+
+//CSS
+@import "foundation/components/progress-bars"
+</pre>
+</code>
 				<div class="nice secondary progress"><span style="width: 50%" class="meter"></span></div>
-				<code data-toggle><div class="nice secondary progress"><span style="width: 50%" class="meter"></span></div></code>
+				<code data-toggle>
+<pre>
+//HTML
+<div class="nice secondary progress">
+	<span style="width: 50%" class="meter"></span>
+</div>
+
+//CSS
+@import "foundation/components/progress-bars"
+</pre>
+				</code>
 
 				<h2 id="breadcrumbs">Breadcrumb</h2>
 				<hr>
@@ -141,12 +253,18 @@
 					<li class="current"><a href="#">Cloning</a></li>
 				</ul>
 				<code data-toggle>
-<pre><ul class="breadcrumbs">
+<pre>
+//HTML
+<ul class="breadcrumbs">
 	<li><a href="#">Home</a></li>
 	<li><a href="#">Features</a></li>
 	<li class="unavailable"><a href="#">Gene Splicing</a></li>
 	<li class="current"><a href="#">Cloning</a></li>
-</ul></pre>
+</ul>
+
+//CSS
+@import "foundation/components/breadcrumbs"
+</pre>
 				</code>
 
 				<h2 id="pagination">Pagination</h2>
@@ -163,7 +281,9 @@
 					<li class="arrow"><a href="">»</a></li>
 				</ul>
 				<code data-toggle>
-<pre><ul class="pagination">
+<pre>
+//HTML
+<ul class="pagination">
 	<li class="arrow unavailable"><a href="">«</a></li>
 	<li class="current"><a href="">1</a></li>
 	<li><a href="">2</a></li>
@@ -173,7 +293,11 @@
 	<li><a href="">12</a></li>
 	<li><a href="">13</a></li>
 	<li class="arrow"><a href="">»</a></li>
-</ul></pre>
+</ul>
+
+/CSS
+@import "foundation/components/pagination"
+</pre>
 				</code>
 
 
@@ -181,28 +305,40 @@
 					<h2 id="panels">Panels</h2>
 					<hr>
 					<div class="row">
-						<div class="large-12 columns">
+						<div class="large-6 columns">
 							<div class="panel">
 								<h5>This is a regular panel.</h5>
 								<p>It has an easy to override visual style, and is appropriately subdued.</p>
 							</div>
 							<code data-toggle>
-<pre><div class="panel">
+<pre>
+//HTML
+<div class="panel">
 	<h5>This is a regular panel.</h5>
 	<p>It has an easy to override visual style, and is appropriately subdued.</p>
-</div></pre>
+</div>
+
+//CSS
+@import "foundation/components/panels"
+</pre>
 						</code>
 						</div>
-						<div class="large-12 columns">
+						<div class="large-6 columns">
 							<div class="panel callout">
 								<h5>This is a callout panel.</h5>
 								<p>It's a little ostentatious, but useful for important content.</p>
 							</div>
 							<code data-toggle>
-<pre><div class="panel callout">
+<pre>
+//HTML
+<div class="panel callout">
 	<h5>This is a callout panel.</h5>
 	<p>It's a little ostentatious, but useful for important content.</p>
-</div></pre>
+</div>
+
+//CSS
+@import "foundation/components/panels"
+</pre>
 							</code>
 						</div>
 					</div>

@@ -227,6 +227,16 @@
 						</div>
 					</fieldset>
 				</form>
+				<code data-toggle>
+<pre>
+//JS
+scripts/foundation/foundation.abide.js //validation
+scripts/foundation/foundation.forms.js
+
+//css
+@include foundation/components/forms
+</pre>
+				</code>
 
 				<h2 id="images">Images</h2>
 				<hr>

@@ -22,9 +22,15 @@
 		<script src="scripts/foundation/foundation.section.js"></script>
 		<script src="scripts/foundation/foundation.tooltips.js"></script>
 		<script src="scripts/foundation/foundation.topbar.js"></script>
+		<!-- js for menu -->
 		<script src="scripts/vendor/jquery.hoverIntent.minified.js"></script>
 		<script src="scripts/vendor/jquery.dcmegamenu.1.3.3.min.js"></script>
+		<!-- js for type ahead -->
+		<script src="scripts/vendor/jquery.autocomplete.js"></script>
+		<script src="scripts/vendor/jquery.mockjax.js"></script>
+
 		<!-- custom -->
+		<script src="scripts/type-ahead.js"></script>
 		<script src="scripts/code.js"></script>
 		<script src="scripts/nav.js"></script>
 		<script>

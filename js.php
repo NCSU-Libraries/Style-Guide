@@ -6,6 +6,7 @@
 			<aside id="secnav">
 				<h4>Side Nav</h4>
 				<ul class="side-nav">
+					<li><a href="#type-ahead">Type Ahead</a></li>
 					<li><a href="#tabs">Tabs</a></li>
 					<li><a href="#accordion">Accordion</a></li>
 					<li><a href="#tooltips">Tooltips</a></li>
@@ -14,6 +15,32 @@
 				</ul>
 			</aside>
 			<article id="primary">
+				<h2 id="type-ahead">Type Ahead</h2>
+		        <p>Type country name in english:</p>
+		        <div>
+		            <input type="text" name="country" id="autocomplete"/>
+		        </div>
+		        <code data-toggle>
+<pre>
+//HTML
+<h2 id="type-ahead">Type Ahead</h2>
+<p>Type country name in english:</p>
+<div>
+    <input type="text" name="country" id="autocomplete"/>
+</div>
+
+//JS
+scripts/vendor/jquery.autocomplete.js
+scripts/vendor/jquery.mockjax.js
+scripts/type-ahead.js
+
+//File of items to search
+scripts/countries.txt
+
+//Full Documentation
+https://github.com/devbridge/jQuery-Autocomplete</pre>
+		        </code>
+
 				<h2 id="tabs">Tabs</h2>
 				<hr>
 				<div class="section-container tabs" data-section="tabs">
@@ -31,7 +58,9 @@
 					</section>
 				</div>
 				<code data-toggle>
-<pre><div class="section-container tabs" data-section="tabs">
+<pre>
+//HTML
+<div class="section-container tabs" data-section="tabs">
 	<section>
 		<p class="title" data-section-title><a href="#">Section 1</a></p>
 		<div class="content" data-section-content>
@@ -44,7 +73,11 @@
 			<p>Content of section 2.</p>
 		</div>
 	</section>
-</div></pre>
+</div>
+
+//CSS
+@import "foundation/components/section"
+</pre>
 				</code>
 
 				<h2>Accordion</h2>
@@ -68,7 +101,9 @@
 					</section>
 				</div>
 				<code data-toggle>
-<pre><div data-section="accordion" class="section-container accordion">
+<pre>
+//HTML
+<div data-section="accordion" class="section-container accordion">
 	<section class="active">
 		<p data-section-title="" class="title"><a href="#">Section 1</a></p>
 		<div data-section-content="" class="content">
@@ -85,13 +120,25 @@
 
 		</div>
 	</section>
-</div></pre>
+</div>
+
+//CSS
+@import "foundation/components/section"
+</pre>
 				</code>
 
 				<h2 id="tooltips">Tooltips</h2>
 				<hr>
 				<p>Here's a tooltip just <span data-tooltip class="has-tip" title="Charlie">for</span></p>
-				<code data-toggle><p>Here's a tooltip just <span data-tooltip class="has-tip" title="Charlie">for</span></p></code>
+				<code data-toggle>
+<pre>
+//HTML
+<p>Here's a tooltip just <span data-tooltip class="has-tip" title="Charlie">for</span></p>
+
+//JS
+scripts/foundation/foundation.tooltips.js
+</pre>
+				</code>
 
 				<h2 id="artbox">Artbox/Carousel</h2>
 				<ul data-orbit data-options="animation:fade;">
@@ -108,7 +155,9 @@
 					</li>
 				</ul><br>
 				<code data-toggle>
-<pre><ul data-orbit data-options="animation:fade;">
+<pre>
+//HTML
+<ul data-orbit data-options="animation:fade;">
 	<li>
 		<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/1012747_10201094050488956_83320848_n.jpg" />
 		<div class="orbit-caption">Chuck having a play date with some of the neighborhood kids.</div>
@@ -120,7 +169,14 @@
 	<li>
 		<img src="http://www.killsometime.com/content/pictures/files/2916.jpg" width="100%" />
 	</li>
-</ul></pre>
+</ul>
+
+//CSS
+@import "foundation/components/orbit"
+
+//JS
+scripts/foundation/foundation.orbit.js
+</pre>
 				</code>
 
 				<h2>Modal Windows</h2>
@@ -134,15 +190,25 @@
 				</div>
 				<div class="reveal-modal-bg" style="display: none"></div>
 				<code data-toggle>
-<pre><a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+<pre>
+//HTML
+<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
 <div id="myModal" class="reveal-modal">
 	<h2>Awesome. I have it.</h2>
 	<p class="lead">Your couch.  It is mine.</p>
 	<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
 	<a class="close-reveal-modal">&#215;</a>
 </div>
-<div class="reveal-modal-bg"></div></pre>
+<div class="reveal-modal-bg"></div>
+
+//CSS
+@import "foundation/components/reveal"
+
+//JS
+scripts/foundation/foundation.reveal.js
+</pre>
 				</code>
+
 			</article>
 
 		</div>
