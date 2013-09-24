@@ -7,7 +7,7 @@
 $base-font-size: 100% !default;
 
 // $base-line-height is 24px while $base-font-size is 16px
-$base-line-height: 160%;
+$base-line-height: 150%;
 
 // This is the default html and body font-size for the base em value.
 
@@ -187,7 +187,7 @@ $h2-font-size: emCalc(37);
 $h3-font-size: emCalc(27);
 $h4-font-size: emCalc(23);
 $h5-font-size: emCalc(18);
-$h6-font-size: 1em;
+$h6-font-size: emCalc(15);
 
 // Control how subheaders are styled.
 
@@ -206,8 +206,8 @@ $h6-font-size: 1em;
 
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-// $paragraph-font-size: 1em;
-// $paragraph-line-height: 1.6;
+$paragraph-font-size: emCalc(15);
+$paragraph-line-height: 1.5;
 // $paragraph-margin-bottom: emCalc(20);
 // $paragraph-aside-font-size: emCalc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -217,7 +217,7 @@ $h6-font-size: 1em;
 // Style <code> tags
 
 $code-color: #FFF; //darken($alert-color, 15%);
-// $code-font-family: Monaco, Consolas, 'Liberation Mono', Courier, monospace;
+$code-font-family: Monaco, Consolas, 'Liberation Mono', Courier, monospace;
 $code-font-weight: 300;
 
 // Style anchors
@@ -235,8 +235,8 @@ $code-font-weight: 300;
 
 // Style lists
 
-// $list-style-position: outside;
-$list-side-margin: emCalc(30);
+$list-style-position: inside;
+$list-side-margin: emCalc(20);
 // $list-nested-margin: emCalc(20);
 // $definition-list-header-weight: bold;
 // $definition-list-header-margin-bottom: .3em;
@@ -889,14 +889,14 @@ $orbit-container-bg: #fff;
 
 // We use these to control the background and border styles
 
-// $panel-bg: darken(#fff, 5%);
+$panel-bg: darken(#fff, 0%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
 
 // $panel-function-factor: 10%;
-// $panel-border-color: darken($panel-bg, $panel-function-factor);
+$panel-border-color: #CCC;//darken($panel-bg, $panel-function-factor);
 
 // We use these to set default inner padding and bottom margin
 

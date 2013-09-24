@@ -27,8 +27,9 @@
 		<meta itemprop="description" content="">
 		<meta itemprop="image" content="">
 
-		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/ncsu-library.css">
 		<link rel="stylesheet" href="styles/brand.css">
+		<link rel="stylesheet" href="styles/app.css"> <!-- add custom styles here -->
 
 		<script src="scripts/vendor/custom.modernizr.js"></script>
 	</head>

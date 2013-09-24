@@ -4,7 +4,6 @@
 
 		<div id="content" class="css">
 			<aside id="secnav">
-				<h4>Side Nav</h4>
 				<ul class="side-nav">
 					<li><a href="#buttons">Media Queries</a></li>
 					<li><a href="#buttons">Buttons</a></li>

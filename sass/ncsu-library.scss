@@ -49,6 +49,17 @@
 @import "foundation/components/tooltips";
 /*@import "foundation/components/dropdown";*/
 
+/*begin global styles*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	line-height: 1.155em;
+	padding-bottom: 0.273em;
+	padding-top: 0.273em;
+	margin-bottom: 0px;
+}
+/*end global styles*/
+
+
 /*begin nav styles*/
 body.nav-expanded{
 	left: -83%;
@@ -188,38 +199,47 @@ header.sticky{
 	top: 0px;
 	z-index: 99;
 }
+
+header#minimum-bar{
+	height: 45px;
+
+	.top-bar{
+		height: 45px;
+
+		.name{
+			height: 45px;
+			padding: 5px 0px 0px emCalc(15);
+			width: 248px;
+		}
+
+		.top-bar-section a{
+			line-height: 45px;
+		}
+	}
+}
 /*end header*/
 
-/*begin content*/
-#content{
-	@include grid-row;
-	margin-bottom: $block-grid-default-spacing;
-}
-#secnav{
-	@media #{$small} {
-		@include grid-column(2);
-	}
-	padding: 0px emCalc(15);
-}
-#primary{
-	@media #{$small} {
-		@include grid-column(10);
-		margin: 0px 0px 30px 0px;
-	}
 
-	padding: 0px emCalc(15);
-}
-#secondary{
-	@media #{$small} {
-		@include grid-column(10, false, false, 4);
-		padding: 0px $block-grid-default-spacing;
-	}
-	@media #{$medium} {
-		@include grid-column(3, false, false, 0);
-	}
-}
 
-/*end content*/
+
+/*begin side bar*/
+.panel p{
+	font-size: emCalc(14);
+}
+.panel ul, .panel ol{
+	margin-left: emCalc(0);
+}
+.panel ul li, .panel ol li{
+	font-size: emCalc(14);
+}
+.panel h2,
+.panel h3,
+.panel h4,
+.panel h5,
+.panel h6{
+	margin-bottom: emCalc(5);
+}
+/*end side bar*/
 
 
 /*begin footer*/

@@ -4,8 +4,8 @@
 
 		<div id="content">
 			<aside id="secnav">
-				<h4>Side Nav</h4>
 				<ul class="side-nav">
+					<li><a href="#grid">Grid</a></li>
 					<li><a href="#typography">Typography</a></li>
 					<li><a href="#links">Links</a></li>
 					<li><a href="#lists">Lists</a></li>
@@ -16,6 +16,49 @@
 				</ul>
 			</aside>
 			<article id="primary">
+				<h2 id="grid">Grid</h2>
+				<hr>
+				<div class="row">
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+					<div class="columns large-1 grid">1</div>
+				</div>
+				<div class="row">
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-2 grid">2</div>
+				</div>
+				<div class="row">
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-3 grid">3</div>
+				</div>
+				<div class="row">
+					<div class="columns large-4 grid">4</div>
+					<div class="columns large-4 grid">4</div>
+					<div class="columns large-4 grid">4</div>
+				</div>
+				<div class="row">
+					<div class="columns large-6 grid">6</div>
+					<div class="columns large-6 grid">6</div>
+				</div>
+				<div class="row">
+					<div class="columns large-12 grid">12</div>
+				</div>
+				<br>
 				<h2 id="typography">Typography</h2>
 				<hr />
 				<h1>h1. Headline</h1>

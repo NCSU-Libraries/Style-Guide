@@ -4,7 +4,6 @@
 
 		<div id="content">
 			<aside id="secnav">
-				<h4>Side Nav</h4>
 				<ul class="side-nav">
 					<li><a href="#colors">Colors</a></li>
 					<li><a href="#typeface">HTML Typefaces</a></li>
