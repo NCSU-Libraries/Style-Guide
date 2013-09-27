@@ -57,6 +57,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 0.273em;
 	margin-bottom: 0px;
 }
+#content ul.breadcrumbs li, ul.breadcrumbs li, #content ul.button-group li{
+	list-style-type: none;
+}
+.alert-box{
+	line-height: 1.3em;
+}
 /*end global styles*/
 
 
@@ -68,15 +74,52 @@ body.nav-expanded{
 	.top-bar.expanded{
 		overflow: visible;
 	}
-	.top-bar-section{
+	nav.top-bar .top-bar-section{
 		position: absolute;
 		top: 0px;
 		width: 100%;
 		z-index: 9999;
-	}
-	#my-menu{
-		background: darken($topbar-bg, 4%);
-		position: absolute;
+
+		ul#my-menu{
+			background: lighten($primary-color-b, 15%);
+			position: absolute;
+
+			@media #{$small} {
+				background: lighten($topbar-bg, 4%);
+			}
+
+			li a{
+				background: lighten($primary-color-b, 15%);
+
+				@media #{$small} {
+					background: lighten($topbar-bg, 4%);
+				}
+			}
+
+			li ul{
+				background: lighten($primary-color-b, 10%);
+
+				@media #{$small} {
+					background: lighten($topbar-bg, 4%);
+				}
+
+				li{
+					background: lighten($primary-color-b, 10%);
+
+					@media #{$small} {
+						background: lighten($topbar-bg, 4%);
+					}
+
+					a{
+						background: lighten($primary-color-b, 10%);
+
+						@media #{$small} {
+							background: lighten($topbar-bg, 4%);
+						}
+					}
+				}
+			}
+		}
 	}
 }
 body.is-sticky{

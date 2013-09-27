@@ -247,7 +247,7 @@ $list-side-margin: emCalc(20);
 // $blockquote-font-color: lighten($header-font-color, 30%);
 // $blockquote-padding: emCalc(9, 20, 0, 19);
 // $blockquote-border: 1px solid #ddd;
-// $blockquote-cite-font-size: emCalc(13);
+// $blockquote-cite-font-size: emCalc(18);
 // $blockquote-cite-font-color: lighten($header-font-color, 20%);
 // $blockquote-cite-link-color: $blockquote-cite-font-color;
 
@@ -515,7 +515,7 @@ $list-side-margin: emCalc(20);
 // We use these to style the close buttons
 
 // $alert-close-color: #333;
-// $alert-close-position: emCalc(5);
+$alert-close-position: emCalc(8);
 // $alert-close-font-size: emCalc(22);
 // $alert-close-opacity: 0.3;
 // $alert-close-opacity-hover: 0.5;

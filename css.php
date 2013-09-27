@@ -18,7 +18,8 @@
 			<article id="primary">
 				<h2>Media Queries</h2>
 				<hr>
-				<p>Breakpoints</p>
+				<h4>Breakpoints</h4>
+				<p>Since Foundation is 'mobile first' the default breakpoint is mobile. If you want to overwrite a style make sure you wrap it in the approproate media query first.</p>
 				<code>
 					$small-screen: 768px;<br>
 					$medium-screen: 960px;<br>
@@ -106,16 +107,6 @@
 @import "foundation/components/buttons"
 </pre>
 				</code>
-				<a href="#" class="button alert">Alert Button</a>
-				<code data-toggle>
-<pre>
-//HTML
-<a href="#" class="button alert">Alert Button</a>
-
-//CSS
-@import "foundation/components/buttons"
-</pre>
-				</code>
 
 				<!-- Disabled Class -->
 				<a href="#" class="button disabled">Disabled Button</a>
@@ -154,7 +145,7 @@
 				<h2 id="alerts">Alert Boxes</h2>
 				<hr>
 				<div class="alert-box" data-alert="">
-      				This is a standard alert.
+      				No, you submit, do you hear? You be strong, you survive... You stay alive, no matter what occurs! I will find you. No matter how long it takes, no matter how far, I will find you.
       				<a class="close" href="">×</a>
     			</div>
     			<code data-toggle>

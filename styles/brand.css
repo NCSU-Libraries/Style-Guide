@@ -693,12 +693,13 @@ code {
   background: #333;
   display: block;
   font-size: 0.8em;
+  line-height: 1.5em;
   margin: 0px 0px 20px 0px;
   padding: 2%;
   width: 100%;
 }
 
-/* line 15, ../sass/brand.scss */
+/* line 16, ../sass/brand.scss */
 .toggle-code {
   /*background: #555;*/
   display: block;
@@ -708,7 +709,7 @@ code {
   width: 80px;
 }
 
-/* line 23, ../sass/brand.scss */
+/* line 24, ../sass/brand.scss */
 html .grid {
   background: #f5f5f5;
   border: 1px solid #DDD;
@@ -720,7 +721,7 @@ html .grid {
 
 /*end global styles*/
 /*begin content*/
-/* line 34, ../sass/brand.scss */
+/* line 35, ../sass/brand.scss */
 #content {
   width: 100%;
   margin-left: auto;
@@ -740,16 +741,16 @@ html .grid {
 #content:after {
   clear: both;
 }
-/* line 38, ../sass/brand.scss */
+/* line 39, ../sass/brand.scss */
 #content ul li {
   list-style-type: disc;
 }
-/* line 41, ../sass/brand.scss */
+/* line 42, ../sass/brand.scss */
 #content #secnav {
   padding: 0px 0.9375em;
 }
 @media only screen and (min-width: 768px) {
-  /* line 41, ../sass/brand.scss */
+  /* line 42, ../sass/brand.scss */
   #content #secnav {
     position: relative;
     padding-left: 0.9375em;
@@ -758,17 +759,17 @@ html .grid {
     float: left;
   }
 }
-/* line 47, ../sass/brand.scss */
+/* line 48, ../sass/brand.scss */
 #content #secnav ul li {
   list-style-type: none;
 }
 
-/* line 52, ../sass/brand.scss */
+/* line 53, ../sass/brand.scss */
 #primary {
   padding: 0px 0.9375em;
 }
 @media only screen and (min-width: 768px) {
-  /* line 52, ../sass/brand.scss */
+  /* line 53, ../sass/brand.scss */
   #primary {
     position: relative;
     padding-left: 0.9375em;
@@ -780,7 +781,7 @@ html .grid {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 60, ../sass/brand.scss */
+  /* line 61, ../sass/brand.scss */
   #secondary {
     position: relative;
     padding-left: 0.9375em;
@@ -792,7 +793,7 @@ html .grid {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 60, ../sass/brand.scss */
+  /* line 61, ../sass/brand.scss */
   #secondary {
     position: relative;
     padding-left: 0.9375em;
@@ -803,75 +804,75 @@ html .grid {
   }
 }
 
-/* line 69, ../sass/brand.scss */
+/* line 70, ../sass/brand.scss */
 #content .side-nav li {
   list-style-type: none;
 }
 
 /*end content*/
 /*begin brand blocks*/
-/* line 76, ../sass/brand.scss */
+/* line 77, ../sass/brand.scss */
 .brand-color {
   padding: 10% 4%;
   text-align: center;
   border: 1px solid #cccccc;
 }
 
-/* line 81, ../sass/brand.scss */
+/* line 82, ../sass/brand.scss */
 #primary-color-a {
   background-color: #cc0000;
   color: #FFF;
 }
 
-/* line 85, ../sass/brand.scss */
+/* line 86, ../sass/brand.scss */
 #primary-color-b {
   background-color: black;
   color: #FFF;
 }
 
-/* line 89, ../sass/brand.scss */
+/* line 90, ../sass/brand.scss */
 #primary-color-c {
   background-color: white;
   color: #555;
 }
 
-/* line 93, ../sass/brand.scss */
+/* line 94, ../sass/brand.scss */
 #secondary-color-a {
   background-color: #383838;
   color: #FFF;
 }
 
-/* line 97, ../sass/brand.scss */
+/* line 98, ../sass/brand.scss */
 #secondary-color-b {
   background-color: #666666;
   color: #FFF;
 }
 
-/* line 101, ../sass/brand.scss */
+/* line 102, ../sass/brand.scss */
 #secondary-color-c {
   background-color: #e1e1e1;
   color: #555;
 }
 
-/* line 105, ../sass/brand.scss */
+/* line 106, ../sass/brand.scss */
 #secondary-color-d {
   background-color: #5c5541;
   color: #fff;
 }
 
-/* line 109, ../sass/brand.scss */
+/* line 110, ../sass/brand.scss */
 #secondary-color-e {
   background-color: #666633;
   color: #fff;
 }
 
-/* line 113, ../sass/brand.scss */
+/* line 114, ../sass/brand.scss */
 #secondary-color-f {
   background-color: #556677;
   color: #fff;
 }
 
-/* line 117, ../sass/brand.scss */
+/* line 118, ../sass/brand.scss */
 #secondary-color-g {
   background-color: #a20000;
   color: #fff;

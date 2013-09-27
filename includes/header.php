@@ -23,7 +23,7 @@
 						<li><a href="index.php">HTML</a></li>
 						<li><a href="css.php">CSS</a></li>
 						<li><a href="js.php">Javascript</a></li>
-						<li><a href="layout.php">Layout</a></li>
+						<li><a href="demo.php">Demo</a></li>
 					</ul>
 				</section>
 			</nav>

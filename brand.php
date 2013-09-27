@@ -22,8 +22,8 @@
 
 				<h4>Secondary</h4>
 				<ul class="small-block-grid-3">
-					<li><p id="secondary-color-a" class="brand-color">#CC0000</p></li>
-					<li><p id="secondary-color-b" class="brand-color">#000000</p></li>
+					<li><p id="secondary-color-a" class="brand-color">#383838</p></li>
+					<li><p id="secondary-color-b" class="brand-color">#666666</p></li>
 					<li><p id="secondary-color-c" class="brand-color">#E1E1E1</p></li>
 					<li><p id="secondary-color-d" class="brand-color">#5C5541</p></li>
 					<li><p id="secondary-color-e" class="brand-color">#666633</p></li>

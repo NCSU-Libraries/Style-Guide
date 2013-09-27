@@ -7507,8 +7507,8 @@ form.custom .custom.disabled {
   padding: 5px 4px 4px;
   line-height: 0;
   position: absolute;
-  top: 0.4375em;
-  right: 0.3125em;
+  top: 0.625em;
+  right: 0.5em;
   color: #333333;
   opacity: 0.3;
 }
@@ -8093,48 +8093,104 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 
+/* line 60, ../sass/ncsu-library.scss */
+#content ul.breadcrumbs li, ul.breadcrumbs li, #content ul.button-group li {
+  list-style-type: none;
+}
+
+/* line 63, ../sass/ncsu-library.scss */
+.alert-box {
+  line-height: 1.3em;
+}
+
 /*end global styles*/
 /*begin nav styles*/
-/* line 64, ../sass/ncsu-library.scss */
+/* line 70, ../sass/ncsu-library.scss */
 body.nav-expanded {
   left: -83%;
   padding-top: 0px;
 }
-/* line 68, ../sass/ncsu-library.scss */
+/* line 74, ../sass/ncsu-library.scss */
 body.nav-expanded .top-bar.expanded {
   overflow: visible;
 }
-/* line 71, ../sass/ncsu-library.scss */
-body.nav-expanded .top-bar-section {
+/* line 77, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section {
   position: absolute;
   top: 0px;
   width: 100%;
   z-index: 9999;
 }
-/* line 77, ../sass/ncsu-library.scss */
-body.nav-expanded #my-menu {
-  background: #b80000;
+/* line 83, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section ul#my-menu {
+  background: #262626;
   position: absolute;
 }
+@media only screen and (min-width: 768px) {
+  /* line 83, ../sass/ncsu-library.scss */
+  body.nav-expanded nav.top-bar .top-bar-section ul#my-menu {
+    background: #e00000;
+  }
+}
+/* line 91, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li a {
+  background: #262626;
+}
+@media only screen and (min-width: 768px) {
+  /* line 91, ../sass/ncsu-library.scss */
+  body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li a {
+    background: #e00000;
+  }
+}
+/* line 99, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul {
+  background: #1a1a1a;
+}
+@media only screen and (min-width: 768px) {
+  /* line 99, ../sass/ncsu-library.scss */
+  body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul {
+    background: #e00000;
+  }
+}
+/* line 106, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul li {
+  background: #1a1a1a;
+}
+@media only screen and (min-width: 768px) {
+  /* line 106, ../sass/ncsu-library.scss */
+  body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul li {
+    background: #e00000;
+  }
+}
+/* line 113, ../sass/ncsu-library.scss */
+body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul li a {
+  background: #1a1a1a;
+}
+@media only screen and (min-width: 768px) {
+  /* line 113, ../sass/ncsu-library.scss */
+  body.nav-expanded nav.top-bar .top-bar-section ul#my-menu li ul li a {
+    background: #e00000;
+  }
+}
 
-/* line 82, ../sass/ncsu-library.scss */
+/* line 125, ../sass/ncsu-library.scss */
 body.is-sticky {
   padding-top: 93px;
 }
 
-/* line 85, ../sass/ncsu-library.scss */
+/* line 128, ../sass/ncsu-library.scss */
 body.nav-open {
   padding-top: 0px;
 }
 
 /*end nav styles*/
 /*begin header*/
-/* line 92, ../sass/ncsu-library.scss */
+/* line 135, ../sass/ncsu-library.scss */
 header {
   background: #cc0000;
   margin-bottom: 1.875em;
 }
-/* line 97, ../sass/ncsu-library.scss */
+/* line 140, ../sass/ncsu-library.scss */
 header nav.top-bar {
   width: 100%;
   margin-left: auto;
@@ -8153,85 +8209,85 @@ header nav.top-bar:before, header nav.top-bar:after {
 header nav.top-bar:after {
   clear: both;
 }
-/* line 100, ../sass/ncsu-library.scss */
+/* line 143, ../sass/ncsu-library.scss */
 header nav.top-bar .title-area .name {
   padding-left: 0.9375em;
   padding-top: 0.875em;
   width: 248px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 100, ../sass/ncsu-library.scss */
+  /* line 143, ../sass/ncsu-library.scss */
   header nav.top-bar .title-area .name {
     padding-top: 12px;
     width: 261px;
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 100, ../sass/ncsu-library.scss */
+  /* line 143, ../sass/ncsu-library.scss */
   header nav.top-bar .title-area .name {
     padding-top: 6px;
     width: 348px;
   }
 }
-/* line 114, ../sass/ncsu-library.scss */
+/* line 157, ../sass/ncsu-library.scss */
 header nav.top-bar .title-area .name .name a {
   display: block;
   height: 100%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 119, ../sass/ncsu-library.scss */
+  /* line 162, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section {
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 119, ../sass/ncsu-library.scss */
+  /* line 162, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section {
     padding-right: 0.9375em;
   }
 }
-/* line 127, ../sass/ncsu-library.scss */
+/* line 170, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li {
   border-top: solid 1px red;
   border-bottom: solid 1px #990000;
 }
 @media only screen and (min-width: 768px) {
-  /* line 127, ../sass/ncsu-library.scss */
+  /* line 170, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li {
     border: none;
     max-width: 250px;
   }
 }
-/* line 135, ../sass/ncsu-library.scss */
+/* line 178, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li > a {
   text-transform: uppercase;
 }
 @media only screen and (min-width: 768px) {
-  /* line 135, ../sass/ncsu-library.scss */
+  /* line 178, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li > a {
     padding: 0px 0.9375em;
   }
 }
-/* line 141, ../sass/ncsu-library.scss */
+/* line 184, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li > a:after {
   border: 0px;
   padding: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 145, ../sass/ncsu-library.scss */
+  /* line 188, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li > a:hover {
     background: #990000;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 150, ../sass/ncsu-library.scss */
+  /* line 193, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li ul {
     display: none;
     position: fixed;
     z-index: 999;
   }
 }
-/* line 157, ../sass/ncsu-library.scss */
+/* line 200, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li ul li {
   background: #990000;
   border-top: 1px solid #cc0000;
@@ -8241,22 +8297,22 @@ header nav.top-bar .top-bar-section ul#my-menu li ul li {
   padding: 0px 0.9375em;
 }
 @media only screen and (min-width: 768px) {
-  /* line 157, ../sass/ncsu-library.scss */
+  /* line 200, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li ul li {
     padding: 0.3125em;
   }
 }
-/* line 168, ../sass/ncsu-library.scss */
+/* line 211, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li ul li:last-child {
   border-bottom: none;
 }
 @media only screen and (min-width: 768px) {
-  /* line 171, ../sass/ncsu-library.scss */
+  /* line 214, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li ul li:hover {
     background: maroon;
   }
 }
-/* line 176, ../sass/ncsu-library.scss */
+/* line 219, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li ul li a {
   background: none;
   font-size: 0.7em;
@@ -8266,60 +8322,60 @@ header nav.top-bar .top-bar-section ul#my-menu li ul li a {
   text-transform: capitalize;
 }
 @media only screen and (min-width: 768px) {
-  /* line 184, ../sass/ncsu-library.scss */
+  /* line 227, ../sass/ncsu-library.scss */
   header nav.top-bar .top-bar-section ul#my-menu li ul li a:hover {
     background: maroon;
   }
 }
-/* line 190, ../sass/ncsu-library.scss */
+/* line 233, ../sass/ncsu-library.scss */
 header nav.top-bar .top-bar-section ul#my-menu li:hover ul {
   display: block;
 }
 
-/* line 197, ../sass/ncsu-library.scss */
+/* line 240, ../sass/ncsu-library.scss */
 header.sticky {
   position: fixed;
   top: 0px;
   z-index: 99;
 }
 
-/* line 203, ../sass/ncsu-library.scss */
+/* line 246, ../sass/ncsu-library.scss */
 header#minimum-bar {
   height: 45px;
 }
-/* line 206, ../sass/ncsu-library.scss */
+/* line 249, ../sass/ncsu-library.scss */
 header#minimum-bar .top-bar {
   height: 45px;
 }
-/* line 209, ../sass/ncsu-library.scss */
+/* line 252, ../sass/ncsu-library.scss */
 header#minimum-bar .top-bar .name {
   height: 45px;
   padding: 5px 0px 0px 0.9375em;
   width: 248px;
 }
-/* line 215, ../sass/ncsu-library.scss */
+/* line 258, ../sass/ncsu-library.scss */
 header#minimum-bar .top-bar .top-bar-section a {
   line-height: 45px;
 }
 
 /*end header*/
 /*begin side bar*/
-/* line 226, ../sass/ncsu-library.scss */
+/* line 269, ../sass/ncsu-library.scss */
 .panel p {
   font-size: 0.875em;
 }
 
-/* line 229, ../sass/ncsu-library.scss */
+/* line 272, ../sass/ncsu-library.scss */
 .panel ul, .panel ol {
   margin-left: 0;
 }
 
-/* line 232, ../sass/ncsu-library.scss */
+/* line 275, ../sass/ncsu-library.scss */
 .panel ul li, .panel ol li {
   font-size: 0.875em;
 }
 
-/* line 239, ../sass/ncsu-library.scss */
+/* line 282, ../sass/ncsu-library.scss */
 .panel h2,
 .panel h3,
 .panel h4,
@@ -8330,19 +8386,19 @@ header#minimum-bar .top-bar .top-bar-section a {
 
 /*end side bar*/
 /*begin footer*/
-/* line 246, ../sass/ncsu-library.scss */
+/* line 289, ../sass/ncsu-library.scss */
 footer {
   background: #383838;
   padding-top: 1.25em;
 }
-/* line 250, ../sass/ncsu-library.scss */
+/* line 293, ../sass/ncsu-library.scss */
 footer p, footer h2, footer h3, footer h4, footer h5, footer i {
   color: #999999;
 }
 
 /*end footer*/
 /*some global settings*/
-/* line 257, ../sass/ncsu-library.scss */
+/* line 300, ../sass/ncsu-library.scss */
 .reveal-modal-bg {
   display: none;
 }

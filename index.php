@@ -58,6 +58,27 @@
 				<div class="row">
 					<div class="columns large-12 grid">12</div>
 				</div>
+				<div class="row">
+					<div class="columns large-3 grid">1/3</div>
+					<div class="columns large-9 grid">2/3</div>
+				</div>
+				<div class="row">
+					<div class="columns large-9 grid">2/3</div>
+					<div class="columns large-3 grid">1/3</div>
+				</div>
+				<div class="row">
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-4 grid">4</div>
+					<div class="columns large-4 grid">4</div>
+					<div class="columns large-2 grid">2</div>
+				</div>
+				<div class="row">
+					<div class="columns large-2 grid">2</div>
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-3 grid">3</div>
+					<div class="columns large-1 grid">1</div>
+				</div>
 				<br>
 				<h2 id="typography">Typography</h2>
 				<hr />
@@ -217,7 +238,7 @@
 							</div>
 							<div class="large-4 columns">
 								<div class="row collapse error">
-									<label for="customDropdown1">Hardest to find in grocery <small>required</small></label>
+									<label for="customDropdown1">Select Box <small>required</small></label>
 									<select required="" class="medium hidden-field" id="customDropdown1" data-id="1378242902694-sjSeY" data-invalid="">
 										<option value="">Select grocery item</option>
 										<option value="first">Green Chilies</option>
@@ -228,6 +249,12 @@
 									<small data-error-message="" class="error">Broke.</small>
 								</div>
 							</div>
+							<div class="small-2 columns">
+								<label for="right-label" class="left inline">Inline Label</label>
+					        </div>
+							<div class="small-3 columns left">
+          						<input type="text" id="right-label" placeholder="Inline Text Input">
+        					</div>
 						</div>
 
 						<hr>
@@ -258,7 +285,7 @@
 
 						<div class="row">
 							<div class="large-12 columns">
-								<label for="remarks">Closing Remarks</label>
+								<label for="remarks">Textarea</label>
 								<textarea placeholder="Leave your remarks here." name="remarks" id="remarks"></textarea>
 							</div>
 						</div>
@@ -282,6 +309,7 @@ scripts/foundation/foundation.forms.js
 				</code>
 
 				<h2 id="images">Images</h2>
+				<p>Images need to fit to the grid and should always have the width set to 100%</p>
 				<hr>
 				<p><img src="http://charliemorris.com/images/granola-header.jpg"></p>
 				<ul class="large-block-grid-4">
