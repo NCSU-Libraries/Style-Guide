@@ -59,6 +59,9 @@
 					<div class="columns large-12 grid">12</div>
 				</div>
 				<div class="row">
+					<h4>Below are the prefferred layouts</h4>
+				</div>
+				<div class="row">
 					<div class="columns large-3 grid">1/3</div>
 					<div class="columns large-9 grid">2/3</div>
 				</div>
