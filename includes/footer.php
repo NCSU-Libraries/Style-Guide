@@ -1,6 +1,6 @@
 		<footer>
 			<div class="row">
-				<div class="columns large-6">
+				<div class="columns large-4">
 					<h4>D. H. Hill Library</h4>
 					<p>2 Broughton Drive <br>
 						Raleigh, NC <br>
@@ -16,7 +16,19 @@
 					</p>
 				</div>
 
-				<div class="columns large-6">
+				<div class="columns large-4">
+					<h4>Libraries</h4>
+					<ul>
+						<li><a href="http://www.lib.ncsu.edu/">D. H. Hill Library</a></li>
+						<li><a href="http://www.lib.ncsu.edu/huntlibrary">Hunt Library</a></li>
+						<li><a href="http://www.lib.ncsu.edu/design">Design Library</a></li>
+						<li><a href="http://www.lib.ncsu.edu/nrl">Natural Resources Library</a></li>
+						<li><a href="http://www.lib.ncsu.edu/textiles">Textiles Library</a></li>
+						<li><a href="http://www.lib.ncsu.edu/vetmed">Veterinary Medicine Library</a></li>
+					</ul>
+				</div>
+
+				<div class="columns large-4">
 					<h4>Find Us On:</h4>
 					<ul class="inline-list">
 						<li><h2><i class="icon-facebook"></i></h2></li>
