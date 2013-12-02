@@ -16,15 +16,21 @@
 				</ul>
 			</aside>
 			<article id="primary">
+				<h1>CSS</h1>
+				<hr />
 				<h2>Media Queries</h2>
 				<hr>
 				<h4>Breakpoints</h4>
 				<p>Since Foundation is 'mobile first' the default breakpoint is mobile. If you want to overwrite a style make sure you wrap it in the approproate media query first.</p>
 				<code>
-					$small-screen: 768px;<br>
+					$mobile-screen: <768px;<br>
+					$small-screen: >768px;<br>
 					$medium-screen: 960px;<br>
 					$large-screen: 1280px;
 				</code>
+
+				<p>Alter styles for screens no larger than 768px wide. Everything here is single column:</p>
+				<code> @media #{$mobile} { }</code>
 
 				<p>Alter styles for screens at least 768px wide. This is where the grid changes:</p>
 				<code> @media #{$small} { }</code>

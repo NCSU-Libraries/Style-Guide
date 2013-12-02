@@ -1,3 +1,35 @@
+/*
+ * Theme specific variables.
+ */
+
+// Optionally, you can add your colors here.
+// ******************************************************
+// $primary-color: #000;
+$primary-color: #cc0000;
+$primary-color-b: #000;
+$primary-color-c: #FFF;
+$secondary-color: #383838;
+// $secondary-color: #c00;
+$secondary-color-b: #666666;
+$secondary-color-c: #E1E1E1;
+$secondary-color-d: #5C5541;
+$secondary-color-e: #666633;
+$secondary-color-f: #556677;
+$secondary-color-g: #A20000;
+$alert-color: #c60f13;
+
+
+// Font Families
+// ------------------------------------------------------
+$ff-arial: Arial, Helvetica, sans-serif;
+// $ff-georgia: Georgia, Times, Times New Roman, Sans-serif;
+
+// Global Variables
+// ------------------------------------------------------
+$global-font-family: $ff-arial;
+// $global-alt-font-family: $ff-georgia;
+
+
 //
 // Foundation Variables
 //
@@ -53,7 +85,7 @@ $default-float: left;
 
 // $body-bg: #fff;
 $body-font-color: #555;
-$body-font-family: Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
+$body-font-family: $global-font-family;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -82,8 +114,8 @@ $alert-color: #c60f13;
 
 // Make sure border radius matches unless we want it different.
 
-// $global-radius: 3px;
-// $global-rounded: 1000px;
+$global-radius: 0px;
+$global-rounded: 0px;
 $border-color: #CCC;
 $border-style: solid;
 $border-thickness: 1px;
@@ -124,16 +156,18 @@ $border-thickness: 1px;
 
 // Media Queries
 
+$mobile-screen: 767px;
 $small-screen: 768px;
 $medium-screen: 960px;
 $large-screen: 1280px;
 
 // $screen: "only screen";
-// $small: "only screen and (min-width: #{$small-screen})";
-// $medium: "only screen and (min-width: #{$medium-screen})";
-// $large: "only screen and (min-width: #{$large-screen})";
-// $landscape: "only screen and (orientation: landscape)";
-// $portrait: "only screen and (orientation: portrait)";
+$mobile: "only screen and (max-width: #{$mobile-screen})";
+$small: "only screen and (min-width: #{$small-screen})";
+$medium: "only screen and (min-width: #{$medium-screen})";
+$large: "only screen and (min-width: #{$large-screen})";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
 
 // Cursors
 
@@ -175,19 +209,19 @@ $header-font-family: Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif
 $header-font-weight: 300;
 // $header-font-style: normal;
 $header-font-color: #555;
-$header-line-height: 1.6em;
-$header-top-margin: 0; //0.273em;
-$header-bottom-margin: 0.546em; //0.273em;
+$header-line-height: 1.25em;
+$header-top-margin: 0.273em;
+$header-bottom-margin: 0.273em;
 $header-text-rendering: optimizeLegibility;
 
 // Control header font sizes
 
 $h1-font-size: emCalc(44);
-$h2-font-size: emCalc(37);
-$h3-font-size: emCalc(27);
-$h4-font-size: emCalc(23);
-$h5-font-size: emCalc(18);
-$h6-font-size: emCalc(15);
+$h2-font-size: emCalc(26);
+$h3-font-size: emCalc(21);
+$h4-font-size: emCalc(18);
+$h5-font-size: emCalc(16);
+$h6-font-size: emCalc(14);
 
 // Control how subheaders are styled.
 
@@ -206,7 +240,7 @@ $h6-font-size: emCalc(15);
 
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-$paragraph-font-size: emCalc(15);
+$paragraph-font-size: emCalc(14.5);
 $paragraph-line-height: 1.5;
 // $paragraph-margin-bottom: emCalc(20);
 // $paragraph-aside-font-size: emCalc(14);
@@ -493,6 +527,7 @@ $list-side-margin: emCalc(20);
 // $alert-padding-default-float: $alert-padding-top;
 // $alert-padding-opposite-direction: $alert-padding-top + emCalc(10);
 // $alert-padding-bottom: $alert-padding-top + emCalc(1);
+$opposite-direction: right !default;
 
 // We use these to control text style.
 
@@ -532,17 +567,17 @@ $alert-close-position: emCalc(8);
 
 // We use this to set the background color for the breadcrumb container.
 
-$crumb-bg: lighten($secondary-color, 75%);
+$crumb-bg: lighten($secondary-color, 100%);
 
 // We use these to set the padding around the breadcrumbs.
 
-// $crumb-padding: emCalc(9, 14, 9);
+$crumb-padding: emCalc(9, 14, 0, 0);
 // $crumb-side-padding: emCalc(12);
 
 // We use these to control border styles.
 
 // $crumb-function-factor: 10%;
-// $crumb-border-size: 1px;
+$crumb-border-size: 0px;
 // $crumb-border-style: solid;
 // $crumb-border-color: darken($crumb-bg, $crumb-function-factor);
 $crumb-radius: 0; //$global-radius;
@@ -823,7 +858,7 @@ $orbit-container-bg: #fff;
 // We use these to control the left/right nav styles
 
 // $orbit-nav-bg-old: rgb(0,0,0);
-// $orbit-nav-bg: rgba(0,0,0,0.6);
+$orbit-nav-bg: rgba(0,0,0,0.2);
 
 // We use these to control the timer styles
 
@@ -832,8 +867,8 @@ $orbit-container-bg: #fff;
 
 // We use these to control the bullet nav styles
 
-// $orbit-bullet-nav-color: #999;
-// $orbit-bullet-nav-color-active: #555;
+$orbit-bullet-nav-color: #CCC;
+$orbit-bullet-nav-color-active: #999;
 
 // We use thes to controls the style of slide numbers
 
@@ -901,11 +936,11 @@ $panel-border-color: #CCC;//darken($panel-bg, $panel-function-factor);
 // We use these to set default inner padding and bottom margin
 
 // $panel-margin-bottom: emCalc(20);
-// $panel-padding: emCalc(20);
+$panel-padding: emCalc(15);
 
 // We use these to set default font colors
 
-// $panel-font-color: #333;
+$panel-font-color: $body-font-color;
 // $panel-font-color-alt: #fff;
 
 // $panel-header-adjust: true;
@@ -1042,9 +1077,9 @@ $panel-border-color: #CCC;//darken($panel-bg, $panel-function-factor);
 
 // $section-title-color: #333;
 // $section-title-color-active: #333;
-// $section-title-bg: #efefef;
-// $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
+$section-title-bg: #fff;
+$section-title-bg-active: #f5f5f5;
+$section-title-bg-active-tabs: #f5f5f5;
 // $section-title-bg-hover: darken($section-title-bg, $section-function-factor / 2);
 
 // Want to control border size, here ya go!
@@ -1055,11 +1090,11 @@ $panel-border-color: #CCC;//darken($panel-bg, $panel-function-factor);
 
 // Font controls
 
-// $section-font-size: emCalc(14);
+$section-font-size: emCalc(16);
 
 // Control the color of the background and some size options
 
-// $section-content-bg: #fff;
+$section-content-bg: #f5f5f5;
 // $section-vertical-nav-min-width: emCalc(200);
 // $section-vertical-tabs-title-width: emCalc(200);
 // $section-bottom-margin: emCalc(20);
@@ -1249,7 +1284,7 @@ $topbar-bg: $primary-color;
 
 // Height and margin
 
-$topbar-height: 63px;
+$topbar-height: 68px;
 $topbar-margin-bottom: emCalc(0);
 
 // Control Input height for top bar
@@ -1263,7 +1298,7 @@ $topbar-margin-bottom: emCalc(0);
 
 // Style the top bar dropdown elements
 
-$topbar-dropdown-bg: darken($topbar-bg, 4%);
+$topbar-dropdown-bg: #383838;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: lighten($topbar-bg, 5%);
 // $topbar-dropdown-toggle-size: 5px;
@@ -1272,11 +1307,11 @@ $topbar-dropdown-bg: darken($topbar-bg, 4%);
 
 // Set the link colors and styles for top-level nav
 
-// $topbar-link-color: #fff;
+$topbar-link-color: #fff;
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 $topbar-link-weight: 300;
-$topbar-link-font-size: emCalc(14);
+$topbar-link-font-size: emCalc(16);
 $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg, 3%);
 // $topbar-link-bg-active: darken($topbar-bg, 3%);

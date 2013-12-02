@@ -14,6 +14,8 @@
 				</ul>
 			</aside>
 			<article id="primary">
+				<h1>Javascript</h1>
+				<hr />
 				<h2 id="type-ahead">Type Ahead</h2>
 		        <p>Type country name in english:</p>
 		        <div>

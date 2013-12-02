@@ -32,7 +32,8 @@
 		<!-- custom -->
 		<script src="scripts/type-ahead.js"></script>
 		<script src="scripts/code.js"></script>
-		<script src="scripts/nav.js"></script>
+		<script src="scripts/primary-nav.js"></script>
+		<script src="scripts/mobile-nav.js"></script>
 		<script>
 			$(document).foundation();
 			$('#mega-menu').dcMegaMenu({

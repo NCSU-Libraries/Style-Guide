@@ -39,13 +39,14 @@
 				0123456789</p>
 				<p>Header font color: #555555</p>
 				<p>Body font color: #555555</p>
+				<p><a href="#">Link</a> color: #CC0000</p>
 				<p>
 					<h1>h1. 44px/2.75em<br></h1>
-					<h2>h2. 37px/2.3125em<br></h2>
-					<h3>h3. 27px/1.6875em<br></h3>
-					<h4>h4. 23px/1.4375em<br></h4>
-					<h5>h5. 18px/1.125em<br></h5>
-					<h6>h6. 16px/1em<br></h6>
+					<h2>h2. 26px/1.625em<br></h2>
+					<h3>h3. 21px/1.3125em<br></h3>
+					<h4>h4. 18px/1.125em<br></h4>
+					<h5>h5. 16px/1em<br></h5>
+					<h6>h6. 14px/0.875em<br></h6>
 					<p>p 16px/1em<br></p>
 				</p>
 
