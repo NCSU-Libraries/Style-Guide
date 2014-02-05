@@ -1,4 +1,4 @@
-Website-Guidelines
+Style Guide
 ==================
 
 Style and branding guidelines for the NCSU Libraries website.  Using Foundation 4.
@@ -15,3 +15,7 @@ Updates 11.21.13
 - Updated Minimum Bar guidelines and styles
 - Updated various style settings in _settings.php
 - Added media query to target mobile devices
+
+Updates 2.5.14
+=================
+- Renamed this repo "Style Guide" to better reflect what this thing actually is.
