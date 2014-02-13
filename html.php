@@ -331,18 +331,18 @@ scripts/foundation/foundation.forms.js
 				<h2 id="images">Images</h2>
 				<p>Images need to fit to the grid and should always have the width set to 100%</p>
 				<hr>
-				<p><img src="http://charliemorris.com/images/granola-header.jpg"></p>
+				<p><img src="http://www.lib.ncsu.edu/sites/default/files/terrace.jpg"></p>
 				<ul class="large-block-grid-4">
-					<li><img src="http://api.ning.com/files/PU3h21-61c2aDzRhm*P*6HWhScZ4JaJsFmR0R8cITjDIbUcVsZwkIKplHQdyUJ7CMgC1s*5ijT-zARJXEkFU*vhNjpS3qeZM/charliecasual.jpg?width=184&height=184&crop=1%3A1" width="100%"></li>
-					<li><img src="http://api.ning.com/files/PU3h21-61c2aDzRhm*P*6HWhScZ4JaJsFmR0R8cITjDIbUcVsZwkIKplHQdyUJ7CMgC1s*5ijT-zARJXEkFU*vhNjpS3qeZM/charliecasual.jpg?width=184&height=184&crop=1%3A1" width="100%"></li>
-					<li><img src="http://api.ning.com/files/PU3h21-61c2aDzRhm*P*6HWhScZ4JaJsFmR0R8cITjDIbUcVsZwkIKplHQdyUJ7CMgC1s*5ijT-zARJXEkFU*vhNjpS3qeZM/charliecasual.jpg?width=184&height=184&crop=1%3A1" width="100%"></li>
-					<li><img src="http://api.ning.com/files/PU3h21-61c2aDzRhm*P*6HWhScZ4JaJsFmR0R8cITjDIbUcVsZwkIKplHQdyUJ7CMgC1s*5ijT-zARJXEkFU*vhNjpS3qeZM/charliecasual.jpg?width=184&height=184&crop=1%3A1" width="100%"></li>
+					<li><img src="//www.lib.ncsu.edu/sites/default/files/tripod.jpg" width="100%"></li>
+					<li><img src="//www.lib.ncsu.edu/sites/default/files/tripod.jpg" width="100%"></li>
+					<li><img src="//www.lib.ncsu.edu/sites/default/files/tripod.jpg" width="100%"></li>
+					<li><img src="//www.lib.ncsu.edu/sites/default/files/tripod.jpg" width="100%"></li>
 				</ul>
 				<ul class="large-block-grid-2">
-					<li><img src="https://lh5.googleusercontent.com/-hiY_JqPu1Kg/AAAAAAAAAAI/AAAAAAAAAB0/DFY-dbF7JTg/photo.jpg" width="100%"></li>
-					<li><img src="https://lh5.googleusercontent.com/-hiY_JqPu1Kg/AAAAAAAAAAI/AAAAAAAAAB0/DFY-dbF7JTg/photo.jpg" width="100%"></li>
-					<li><img src="https://lh5.googleusercontent.com/-hiY_JqPu1Kg/AAAAAAAAAAI/AAAAAAAAAB0/DFY-dbF7JTg/photo.jpg" width="100%"></li>
-					<li><img src="https://lh5.googleusercontent.com/-hiY_JqPu1Kg/AAAAAAAAAAI/AAAAAAAAAB0/DFY-dbF7JTg/photo.jpg" width="100%"></li>
+					<li><img src="http://www.lib.ncsu.edu/sites/default/files/nexus7.jpg" width="100%"></li>
+					<li><img src="http://www.lib.ncsu.edu/sites/default/files/nexus7.jpg" width="100%"></li>
+					<li><img src="http://www.lib.ncsu.edu/sites/default/files/nexus7.jpg" width="100%"></li>
+					<li><img src="http://www.lib.ncsu.edu/sites/default/files/nexus7.jpg" width="100%"></li>
 				</ul>
 			</article>
 		</div>
